@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_red_dark"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="ankur"
+        android:padding="30dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/text_view_bg"
+        android:textColor="@color/color_new"
+        />
+<!-- commenting in  xml
+
+ margin -   distance between view and it's parent
+ padding - distance between views's content and it's boundry
+ -->
+</RelativeLayout>
